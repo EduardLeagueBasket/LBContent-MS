@@ -1,0 +1,44 @@
+# Binarios y artefactos de compilación
+/bin/
+/build/
+/dist/
+/api
+/content-ms
+/main
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Air (hot reload)
+/tmp/
+
+# Dependencias vendorizadas (go.mod y go.sum sí se versionan)
+/vendor/
+
+# Cobertura, perfiles y resultados de pruebas
+/coverage/
+coverage.*
+*.out
+*.prof
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Logs
+*.log
+
+# IDE y editor
+/.vscode/
+/.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
